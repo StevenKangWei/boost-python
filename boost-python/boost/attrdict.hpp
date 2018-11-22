@@ -4,13 +4,13 @@
 
 using namespace boost::python;
 
-struct AttrDict: public dict {
-	AttrDict() : dict()
+struct AttrDict: public object {
+	AttrDict()
 	{
 		std::cout << "Attrdict constructor" << std::endl;
 	}
 
-	~AttrDict()
+	virtual ~AttrDict()
 	{
 		std::cout << "Attrdict destructor" << std::endl;
 	}
