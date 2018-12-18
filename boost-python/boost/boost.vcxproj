@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="attrdict.hpp" />
+    <ClInclude Include="testdict.hpp" />
     <ClInclude Include="base.hpp" />
     <ClInclude Include="boost.h" />
     <ClInclude Include="hello.hpp" />

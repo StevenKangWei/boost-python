@@ -1,5 +1,5 @@
 #include "boost.h"
-#include "base.hpp"
+#include "testdict.hpp"
 
 //BOOST_PYTHON_MODULE(boost)
 //{

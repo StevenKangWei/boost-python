@@ -3,9 +3,9 @@
   <ItemGroup>
     <ClInclude Include="hello.hpp" />
     <ClInclude Include="world.hpp" />
-    <ClInclude Include="attrdict.hpp" />
     <ClInclude Include="base.hpp" />
     <ClInclude Include="boost.h" />
+    <ClInclude Include="testdict.hpp" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
